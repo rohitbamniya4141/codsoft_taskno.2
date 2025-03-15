@@ -1,4 +1,4 @@
-/* ✅ Header Styling */
+
 header {
     background: #333;  /* Dark background */
     color: white;      /* White text */
@@ -10,7 +10,7 @@ header {
     left: 0;
 }
 
-/* ✅ Navigation Menu */
+
 nav ul {
     list-style: none;  /* Bullets hatane ke liye */
     padding: 0;
@@ -27,19 +27,19 @@ nav ul li a {
     font-size: 18px;
 }
 
-/* ✅ Sections ke liye styling */
+
 section {
     padding: 100px 20px;
     margin-top: 80px; /* Header ke neeche gap dene ke liye */
 }
-/* ✅ About Section */
+
 #about {
     background: #f8f9fa;
     padding: 80px 20px;
     text-align: center;
 }
 
-/* ✅ About Section Layout */
+
 .about-container {
     display: flex;
     align-items: center;
@@ -49,7 +49,7 @@ section {
     margin: auto;
 }
 
-/* ✅ Image Styling */
+
 .about-container img {
     width: 150px;
     height: 150px;
@@ -57,19 +57,19 @@ section {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* ✅ Text Styling */
+
 .about-text {
     max-width: 500px;
     text-align: left;
 }
-/* ✅ Skills Section */
+
 #skills {
     padding: 80px 20px;
     text-align: center;
     background: #e9ecef;
 }
 
-/* ✅ Skill Bars */
+
 .skill {
     max-width: 600px;
     margin: 20px auto;
@@ -90,7 +90,7 @@ section {
     margin-top: 5px;
 }
 
-/* ✅ Animated Skill Levels */
+
 .html {
     width: 90%;
     height: 100%;
@@ -122,17 +122,17 @@ section {
     animation: fillBar 2s ease-in-out;
 }
 
-/* ✅ Animation */
+
 @keyframes fillBar {
     from { width: 0; }
 }
 
 
-/* ✅ Animation */
+
 @keyframes fillBar {
     from { width: 0; }
 }
-/* ✅ Contact Section */
+
 #contact {
     background: #333;
     color: white;
@@ -140,7 +140,6 @@ section {
     text-align: center;
 }
 
-/* ✅ Form Styling */
 form {
     max-width: 400px;
     margin: auto;
@@ -163,13 +162,13 @@ form button {
     border: none;
     cursor: pointer;
 }
-/* ✅ Projects Section */
+
 #projects {
     padding: 80px 20px;
     text-align: center;
 }
 
-/* ✅ Project Layout */
+
 .project-container {
     display: flex;
     justify-content: center;
@@ -177,7 +176,7 @@ form button {
     flex-wrap: wrap;
 }
 
-/* ✅ Project Card */
+
 .project-card {
     background: white;
     padding: 20px;
