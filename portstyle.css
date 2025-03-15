@@ -1,0 +1,193 @@
+/* ✅ Header Styling */
+header {
+    background: #333;  /* Dark background */
+    color: white;      /* White text */
+    padding: 15px;
+    text-align: center;
+    position: fixed;   /* Header ko top pe fix karne ke liye */
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* ✅ Navigation Menu */
+nav ul {
+    list-style: none;  /* Bullets hatane ke liye */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;  /* Links ek line me lane ke liye */
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;  /* Underline remove */
+    font-size: 18px;
+}
+
+/* ✅ Sections ke liye styling */
+section {
+    padding: 100px 20px;
+    margin-top: 80px; /* Header ke neeche gap dene ke liye */
+}
+/* ✅ About Section */
+#about {
+    background: #f8f9fa;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+/* ✅ About Section Layout */
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* ✅ Image Styling */
+.about-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Circle shape */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* ✅ Text Styling */
+.about-text {
+    max-width: 500px;
+    text-align: left;
+}
+/* ✅ Skills Section */
+#skills {
+    padding: 80px 20px;
+    text-align: center;
+    background: #e9ecef;
+}
+
+/* ✅ Skill Bars */
+.skill {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.skill p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.skill-bar {
+    width: 100%;
+    height: 10px;
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+/* ✅ Animated Skill Levels */
+.html {
+    width: 90%;
+    height: 100%;
+    background: #f16529;
+    animation: fillBar 2s ease-in-out;
+}
+.css {
+    width: 85%;
+    height: 100%;
+    background: #2965f1;
+    animation: fillBar 2s ease-in-out;
+}
+.js {
+    width: 75%;
+    height: 100%;
+    background: #f7df1e;
+    animation: fillBar 2s ease-in-out;
+}
+.dsa {
+    width: 80%;
+    height: 100%;
+    background: #007acc;
+    animation: fillBar 2s ease-in-out;
+}
+.mysql {
+    width: 70%;
+    height: 100%;
+    background: #4479a1;
+    animation: fillBar 2s ease-in-out;
+}
+
+/* ✅ Animation */
+@keyframes fillBar {
+    from { width: 0; }
+}
+
+
+/* ✅ Animation */
+@keyframes fillBar {
+    from { width: 0; }
+}
+/* ✅ Contact Section */
+#contact {
+    background: #333;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+/* ✅ Form Styling */
+form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+form button {
+    background: #f16529;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+/* ✅ Projects Section */
+#projects {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+/* ✅ Project Layout */
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* ✅ Project Card */
+.project-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 10px;
+}
